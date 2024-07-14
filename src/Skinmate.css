@@ -1,0 +1,101 @@
+#root {
+    background-color: white;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+@font-face {
+    font-display: block;
+    font-family: "Lab Mono";
+    src: url("https://type.cargo.site/files/LabMono-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: normal;
+    unicode-range: U+0000-DFFF, U+F900-FFFD;
+}
+
+.mainPhoto {
+    display: flex;
+    gap: 4vw;
+}
+
+.singularPhoto {
+    height: auto;
+    max-width: 20vw;
+    width: 100%;
+}
+
+.infoAndParagraph {
+    display: flex;
+    margin-top: 3vh;
+    gap: 12vw;
+    max-width: 68vw;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    width: 100%;
+    max-width: 17vw;
+}
+
+.infoTitle {
+    font-family: "Lab Mono";
+    font-size: 3vh;
+}
+
+.infoFullText {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lab Mono";
+    font-size: 2vh;
+}
+
+.projectParagraph {
+    font-family: "Lab Mono";
+    font-size: 2vh;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.indexLink, .nextLink {
+    margin-bottom: 20px;
+}
+
+.moreImages {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.projectVideos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.videoRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleVideo {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    height: auto;
+    gap: 1vh;
+}
+
+.videoTitle, .videosMainTitle, .projectReportTitle {
+    font-family: "Lab Mono";
+}
+
+.videosMainTitle, .projectReportTitle {
+    font-size: 2vh;
+}
