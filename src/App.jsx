@@ -1,6 +1,7 @@
 import './App.css'
 import { Link } from "react-router-dom";
-import projectImage from './assets/skinmate.png';
+import skinMateProjectImage from './assets/skinmate.png';
+import countdownTimerProjectImage from './assets/CountdownTimer1.png';
 
 function App() {
     return (
@@ -36,7 +37,7 @@ function App() {
 
                                         <div className = "dropdownContent">
                                             <Link to = "/Skinmate" className = "dropdownItem">SkinMate iOS Application</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Countdown Timer</Link>
+                                            <Link to = "/CountdownTimer" className = "dropdownItem">Countdown Timer</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">InnoPromoo</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Wordle</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Memory Game</Link>
@@ -67,7 +68,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {skinMateProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -76,10 +77,10 @@ function App() {
                                     </div>
                                 </Link>
                                 
-                                <Link to = "/Skinmate">
+                                <Link to = "/CountdownTimer">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -91,7 +92,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -105,7 +106,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -117,7 +118,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -129,7 +130,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -143,7 +144,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -155,7 +156,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -167,7 +168,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {projectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
