@@ -6,6 +6,7 @@ import './index.css'
 import Skinmate from './Skinmate.jsx';
 import CountdownTimer from './CountdownTimer.jsx';
 import InnoPromoo from './InnoPromoo.jsx';
+import MemoryGame from './MemoryGame.jsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "InnoPromoo",
     element: <InnoPromoo />,
+  },
+  {
+    path: "MemoryGame",
+    element: <MemoryGame />,
   },
 ]);
 

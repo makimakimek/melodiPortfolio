@@ -4,6 +4,8 @@ import skinMateProjectImage from './assets/skinmate.png';
 import countdownTimerProjectImage from './assets/CountdownTimer1.png';
 import innoPromooProjectImage from './assets/innopromoo2.png';
 import wordleProjectImage from './assets/wordle1.png';
+import memoryGameProjectImage from './assets/memoryGame2.png';
+import etchASketchProjectImage from './assets/etchASketch2.png';
 
 function App() {
     return (
@@ -42,7 +44,7 @@ function App() {
                                             <Link to = "/CountdownTimer" className = "dropdownItem">Countdown Timer</Link>
                                             <Link to = "/InnoPromoo" className = "dropdownItem">InnoPromoo</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Wordle</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Memory Game</Link>
+                                            <Link to = "/MemoryGame" className = "dropdownItem">Memory Game</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Etch-A-Sketch</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Shopping List</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Cat Adoption</Link>
@@ -108,7 +110,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {wordleProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -117,10 +119,10 @@ function App() {
                                     </div>
                                 </Link>
 
-                                <Link to = "/Skinmate">
+                                <Link to = "/MemoryGame">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {memoryGameProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -132,7 +134,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {etchASketchProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
