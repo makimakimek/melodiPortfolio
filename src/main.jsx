@@ -5,6 +5,7 @@ import App from './App.jsx'
 import './index.css'
 import Skinmate from './Skinmate.jsx';
 import CountdownTimer from './CountdownTimer.jsx';
+import InnoPromoo from './InnoPromoo.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "CountdownTimer",
     element: <CountdownTimer />,
+  },
+  {
+    path: "InnoPromoo",
+    element: <InnoPromoo />,
   },
 ]);
 
