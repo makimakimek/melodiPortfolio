@@ -16,15 +16,21 @@
     unicode-range: U+0000-DFFF, U+F900-FFFD;
 }
 
-.mainPhoto {
-    display: flex;
-    gap: 4vw;
+.projectCollection {
+    width: 68vw;
 }
 
+.mainPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.5vw;
+}
+  
 .singularPhoto {
     height: auto;
-    max-width: 20vw;
     width: 100%;
+    max-width: 22vw;
 }
 
 .infoAndParagraph {

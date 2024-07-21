@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/innopromoo1.png';
 import photo2 from './assets/innopromoo2.png';
 import photo3 from './assets/innopromoo3.png';
+import photo4 from './assets/innopromoo4.png';
 
 function InnoPromoo() {
     return (
@@ -68,35 +69,23 @@ function InnoPromoo() {
 
                             <img src = {photo2} className = "singularPhoto" alt = "one of the product pages of innopromoo"/>
 
-                            <img src = {photo3} className = "singularPhoto" alt = "contact page/form of innopromoo"/>
+                            <img src = {photo4} className = "singularPhoto" alt = "one of the product pages of innopromoo"/>
                         </div>
 
                         <div className = "infoAndParagraph">
                             <div className = "info">
-                                <div className = "contribution">
+                                <div className = "links">
                                     <div className = "infoTitle">
-                                        Contribution
+                                        Links
                                     </div>
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Coding in Xcode with Swift 
+                                            <a href = "https://innopromoo.com/" target = "_blank" className = "singularLink">Live Preview</a>
                                         </div>
 
                                         <div className = "infoSubText">
-                                            User Interface creation 
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Database Management through Google Firebase
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Mining information using ParseHub
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Designing the logo with Adobe Illustrator
+                                            <a href = "https://github.com/makimakimek/inno" target = "_blank" className = "singularLink">GitHub</a>
                                         </div>
                                     </div>
                                 </div>
