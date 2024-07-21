@@ -134,6 +134,22 @@ function Skinmate() {
                                         </div>
                                     </div>
                                 </div>
+
+                                <div className = "links">
+                                    <div className = "infoTitle">
+                                        Links
+                                    </div>
+
+                                    <div className = "infoFullText">
+                                        <div className = "infoSubText">
+                                            <a href = "https://drive.google.com/file/d/1s3wRORKIWn5ID1-YOpBUF5m7QKy5i326/view" target = "_blank" className = "singularLink">Video</a>
+                                        </div>
+
+                                        <div className = "infoSubText">
+                                            <a href = "https://github.com/eozol17/comp491" target = "_blank" className = "singularLink">GitHub</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             
                             <div className = "projectParagraph">
