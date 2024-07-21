@@ -2,7 +2,8 @@ import './Skinmate.css';
 import './App.css';
 import { Link } from "react-router-dom";
 import photo1 from './assets/memoryGame1.png';
-import photo2 from './assets/memoryGame2.png';
+import photo2 from './assets/memoryGame3.png';
+import photo3 from './assets/memoryGame2.png';
 
 function MemoryGame() {
     return (
@@ -66,41 +67,31 @@ function MemoryGame() {
                             <img src = {photo1} className = "singularPhoto" alt = "initial screen of memory game"/>
 
                             <img src = {photo2} className = "singularPhoto" alt = "mid-screen of memory game while being played"/>
+
+                            <img src = {photo3} className = "singularPhoto" alt = "mid-screen of memory game while being played"/>
                         </div>
 
                         <div className = "infoAndParagraph">
                             <div className = "info">
-                                <div className = "contribution">
+                                <div className = "links">
                                     <div className = "infoTitle">
-                                        Contribution
+                                        Links
                                     </div>
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Coding in Xcode with Swift 
+                                            <a href = "https://makimakimek.github.io/memoryGame/" target = "_blank" className = "singularLink">Live Preview</a>
                                         </div>
 
                                         <div className = "infoSubText">
-                                            User Interface creation 
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Database Management through Google Firebase
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Mining information using ParseHub
-                                        </div>
-
-                                        <div className = "infoSubText">
-                                            Designing the logo with Adobe Illustrator
+                                            <a href = "https://github.com/makimakimek/memoryGame" target = "_blank" className = "singularLink">GitHub</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div className = "collaborator">
+                                <div className = "contribution">
                                     <div className = "infoTitle">
-                                        Collaborator
+                                        Contribution
                                     </div>
 
                                     <div className = "infoFullText">
