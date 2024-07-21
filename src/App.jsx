@@ -47,7 +47,7 @@ function App() {
                                             <Link to = "/InnoPromoo" className = "dropdownItem">InnoPromoo</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Wordle</Link>
                                             <Link to = "/MemoryGame" className = "dropdownItem">Memory Game</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Etch-A-Sketch</Link>
+                                            <Link to = "/EtchASketch" className = "dropdownItem">Etch-A-Sketch</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Shopping List</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Cat Adoption</Link>
                                             <Link to = "/Skinmate" className = "dropdownItem">Dice Roller</Link>
@@ -133,7 +133,7 @@ function App() {
                                     </div>
                                 </Link>
                                 
-                                <Link to = "/Skinmate">
+                                <Link to = "/EtchASketch">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
                                             <img src = {etchASketchProjectImage} className = "subImage" alt = "an image of FloraPod project"/>

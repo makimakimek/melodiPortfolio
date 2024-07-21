@@ -7,6 +7,7 @@ import Skinmate from './Skinmate.jsx';
 import CountdownTimer from './CountdownTimer.jsx';
 import InnoPromoo from './InnoPromoo.jsx';
 import MemoryGame from './MemoryGame.jsx';
+import EtchASketch from './EtchASketch.jsx';
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: "MemoryGame",
     element: <MemoryGame />,
+  },
+  {
+    path: "EtchASketch",
+    element: <EtchASketch />,
   },
 ]);
 
