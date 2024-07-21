@@ -3,9 +3,11 @@ import { Link } from "react-router-dom";
 import skinMateProjectImage from './assets/skinmate.png';
 import countdownTimerProjectImage from './assets/CountdownTimer1.png';
 import innoPromooProjectImage from './assets/innopromoo2.png';
-import wordleProjectImage from './assets/wordle1.png';
+import wordleProjectImage from './assets/wordle2.png';
 import memoryGameProjectImage from './assets/memoryGame2.png';
 import etchASketchProjectImage from './assets/etchASketch2.png';
+import shoppingListProjectImage from './assets/shoppingList3.png';
+import catAdoptionProjectImage from './assets/catAdoption2.png';
 
 function App() {
     return (
@@ -148,7 +150,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {shoppingListProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
@@ -160,7 +162,7 @@ function App() {
                                 <Link to = "/Skinmate">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
+                                            <img src = {catAdoptionProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
                                         </div>
 
                                         <div className = "projectTitle">
