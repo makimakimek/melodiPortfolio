@@ -8,6 +8,7 @@ import CountdownTimer from './CountdownTimer.jsx';
 import InnoPromoo from './InnoPromoo.jsx';
 import MemoryGame from './MemoryGame.jsx';
 import EtchASketch from './EtchASketch.jsx';
+import CatAdoption from './CatAdoption.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
   {
     path: "EtchASketch",
     element: <EtchASketch />,
+  },
+  {
+    path: "CatAdoption",
+    element: <CatAdoption />,
   },
 ]);
 
