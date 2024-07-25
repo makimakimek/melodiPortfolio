@@ -1,7 +1,7 @@
 import './App.css'
 import { Link } from "react-router-dom";
 import skinMateProjectImage from './assets/skinmate.png';
-import countdownTimerProjectImage from './assets/CountdownTimer1.png';
+import countdownTimerProjectImage from './assets/CountdownTimer2.png';
 import innoPromooProjectImage from './assets/innopromoo2.png';
 import wordleProjectImage from './assets/wordle2.png';
 import memoryGameProjectImage from './assets/memoryGame2.png';

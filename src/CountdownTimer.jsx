@@ -3,6 +3,7 @@ import './App.css';
 import { Link } from "react-router-dom";
 import photo1 from './assets/CountdownTimer1.png';
 import photo2 from './assets/CountdownTimer2.png';
+import photo3 from './assets/CountdownTimer3.png';
 
 function CountdownTimer() {
     return (
@@ -66,6 +67,8 @@ function CountdownTimer() {
                             <img src = {photo1} className = "singularPhoto" alt = "countdown timer's initial screen"/>
 
                             <img src = {photo2} className = "singularPhoto" alt = "countdown timer while running/working"/>
+
+                            <img src = {photo3} className = "singularPhoto" alt = "countdown timer when paused"/>
                         </div>
 
                         <div className = "infoAndParagraph">
