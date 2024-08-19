@@ -1,13 +1,13 @@
 import './App.css'
 import { Link } from "react-router-dom";
-import skinMateProjectImage from './assets/skinmate.png';
-import countdownTimerProjectImage from './assets/CountdownTimer2.png';
-import innoPromooProjectImage from './assets/innopromoo2.png';
-import wordleProjectImage from './assets/wordle2.png';
-import memoryGameProjectImage from './assets/memoryGame2.png';
-import etchASketchProjectImage from './assets/etchASketch2.png';
-import shoppingListProjectImage from './assets/shoppingList3.png';
-import catAdoptionProjectImage from './assets/catAdoption2.png';
+import skinMateProjectImage from './assets/mainPhotos/skinmate.png';
+import countdownTimerProjectImage from './assets/mainPhotos/CountdownTimer2.png';
+import innoPromooProjectImage from './assets/mainPhotos/innopromoo2.png';
+import wordleProjectImage from './assets/mainPhotos/wordle2.png';
+import memoryGameProjectImage from './assets/mainPhotos/memoryGame2.png';
+import etchASketchProjectImage from './assets/mainPhotos/etchASketch2.png';
+import shoppingListProjectImage from './assets/mainPhotos/shoppingList3.png';
+import catAdoptionProjectImage from './assets/mainPhotos/catAdoption2.png';
 
 function App() {
     return (
