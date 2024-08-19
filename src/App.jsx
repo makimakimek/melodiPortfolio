@@ -60,6 +60,12 @@ function App() {
                                         about me
                                     </div>
                                 </a>
+
+                                <a href = "https://www.google.com" className = "link">
+                                    <div className = "menuItem">
+                                        resume
+                                    </div>
+                                </a>
                             </div> 
                         </div>
                     </div>
