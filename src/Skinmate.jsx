@@ -40,13 +40,15 @@ function Skinmate() {
                                         </div>
 
                                         <div className = "dropdownContent">
-                                            <Link to = "/TwoArmRobotProject" className = "dropdownItem">Using a Two-Arm Robot System to Write Initials</Link>
-                                            <Link to = "/InvertedPendulum" className = "dropdownItem">Inverted Pendulum System Modelling</Link>
-                                            <Link to = "/BallBalancer" className = "dropdownItem">Ball Balancer System Control Modelling</Link>
-                                            <Link to = "/BridgeCable" className = "dropdownItem">Structural Analysis of a Bridge Cable</Link>
-                                            <Link to = "/FluidFlowSimulation" className = "dropdownItem">Fluid Flow Simulation Through an Expanding Pipe</Link>
-                                            <Link to = "/AirCompressorModelling" className = "dropdownItem">3D Modelling of an Air Compressor</Link>
-                                            <Link to = "/FloraPod" className = "dropdownItem">Climate Controlled Portable Greenhouse System</Link>
+                                            <Link to = "/Skinmate" className = "dropdownItem">SkinMate iOS Application</Link>
+                                            <Link to = "/CountdownTimer" className = "dropdownItem">Countdown Timer</Link>
+                                            <Link to = "/InnoPromoo" className = "dropdownItem">InnoPromoo</Link>
+                                            <Link to = "/Skinmate" className = "dropdownItem">Wordle</Link>
+                                            <Link to = "/MemoryGame" className = "dropdownItem">Memory Game</Link>
+                                            <Link to = "/EtchASketch" className = "dropdownItem">Etch-A-Sketch</Link>
+                                            <Link to = "/Skinmate" className = "dropdownItem">Shopping List</Link>
+                                            <Link to = "/CatAdoption" className = "dropdownItem">Cat Adoption</Link>
+                                            <Link to = "/Skinmate" className = "dropdownItem">Dice Roller</Link>
                                         </div>
                                     </div>
                                 </div>
