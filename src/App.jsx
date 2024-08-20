@@ -54,12 +54,19 @@ function App() {
                                         </div>
                                     </div>
                                 </div>
-                                
-                                <a href = "https://www.google.com" className = "link">
-                                    <div className = "menuItem">
-                                        about me
+
+                                <div className = "menuItem">
+                                    <div className = "dropdownProjects">
+                                        <div className = "dropdownTitle">
+                                            about me
+                                        </div>
+
+                                        <div className = "dropdownContent">
+                                            <a href = "https://www.linkedin.com/in/melodi-keskin-059007211/" className = "dropdownItem" target = "_blank">LinkedIn</a>
+                                            <a href = "https://github.com/makimakimek" className = "dropdownItem" target = "_blank">GitHub</a>
+                                        </div>
                                     </div>
-                                </a>
+                                </div>
 
                                 <a href = "https://www.google.com" className = "link">
                                     <div className = "menuItem">
