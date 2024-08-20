@@ -26,12 +26,20 @@
 .navigationAndName {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  width: 20%;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 3;
 }
 
 .projectCollection {
   display: flex;
   flex-direction: column;
+  width: 70%;
   margin-right: 2vw;
+  margin-left: 30%;
 }
 
 .projectsFull {
@@ -148,13 +156,15 @@
   z-index: 1;
   left: 100%;
   top: 0;
-  margin-left: 2px;
+  margin-left: 1px;
+  background-color: whitesmoke;
 }
 
 .dropdownItem {
-  border-bottom: 1px solid grey;
+  border: 1px solid grey;
   color: black;
   width: 10vw;
+  padding: 5px;
 }
 
 .dropdownContent a {
