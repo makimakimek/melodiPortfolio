@@ -91,18 +91,6 @@ function InnoPromoo() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className = "collaborator">
-                                    <div className = "infoTitle">
-                                        Collaborator
-                                    </div>
-
-                                    <div className = "infoFullText">
-                                        <div className = "infoSubText">
-                                            done by me
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             
                             <div className = "projectParagraph">
