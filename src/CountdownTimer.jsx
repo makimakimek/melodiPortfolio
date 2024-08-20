@@ -25,7 +25,7 @@ function CountdownTimer() {
                             </div>
 
                             <div className = "menu">
-                                <Link to = "/Featured">
+                                <Link to = "/">
                                     <div className = "menuItem">
                                         index
                                     </div>
