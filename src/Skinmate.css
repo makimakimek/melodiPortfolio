@@ -24,7 +24,7 @@
     display: flex;
     justify-content: flex-start;
     gap: 2rem;
-    align-items: flex-start;
+    align-items: center;
 }
   
 .singularPhoto {
@@ -65,3 +65,9 @@
     word-wrap: break-word;
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    .singularPhoto {
+        max-width: 30%;
+    }
+  }

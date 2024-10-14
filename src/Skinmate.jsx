@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './Skinmate.css';
 import './App.css';
 import { Link } from "react-router-dom";
@@ -6,71 +7,91 @@ import photo2 from './assets/capstoneScreenshot2.png';
 import photo5 from './assets/capstoneScreenshot5.png';
 
 function Skinmate() {
+    const [mobileNavOpen, setMobileNavOpen] = useState(false);
+
+    const toggleMobileNav = () => {
+        setMobileNavOpen(!mobileNavOpen);
+    };
+
+    const NavigationContent = () => (
+        <>
+          <div className="name">Melodi Ezgi Keskin</div>
+
+          <div className="navigationTab">
+            <div className="nodes">NODES</div>
+
+            <div className="menu">
+              <Link to="/">
+                <div className="menuItem">index</div>
+              </Link>
+
+              <div className="menuItem">
+                <div className="dropdownProjects">
+                  <div className="dropdownTitle">projects +</div>
+
+                  <div className="dropdownContent">
+                    <Link to="/Skinmate" className="dropdownItem">
+                      SkinMate iOS Application
+                    </Link>
+                    <Link to="/InnoPromoo" className="dropdownItem">
+                      InnoPromoo
+                    </Link>
+                    <Link to="/CountdownTimer" className="dropdownItem">
+                      Countdown Timer
+                    </Link>
+                    <Link to="/Wordle" className="dropdownItem">
+                      Wordle
+                    </Link>
+                    <Link to="/MemoryGame" className="dropdownItem">
+                      Memory Game
+                    </Link>
+                    <Link to="/EtchASketch" className="dropdownItem">
+                      Etch-A-Sketch
+                    </Link>
+                    <Link to="/ShoppingList" className="dropdownItem">
+                      Shopping List
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="menuItem">
+                <div className="dropdownProjects">
+                  <div className="dropdownTitle">about me</div>
+
+                  <div className="dropdownContent">
+                    <a
+                      href="https://www.linkedin.com/in/melodi-keskin-059007211/"
+                      className="dropdownItem"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
+                    <a
+                      href="https://github.com/makimakimek"
+                      className="dropdownItem"
+                      target="_blank"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://www.google.com" className="link">
+                <div className="menuItem">resume</div>
+              </a>
+            </div>
+          </div>
+        </>
+    );
+
     return (
         <>
             <div className = "page">
                 <div className = "navAndProjects">
                     <div className = "navigationAndName">
-                        <div className = "name">
-                            Melodi Keskin
-                        </div>
-
-                        {/*<div className = "mood">
-                            mood:
-                        </div>*/}
-
-                        <div className = "navigationTab">
-                            <div className = "nodes">
-                                NODES
-                            </div>
-
-                            <div className = "menu">
-                                <Link to = "/">
-                                    <div className = "menuItem">
-                                        index
-                                    </div>
-                                </Link>
-                                
-                                <div className = "menuItem">
-                                    <div className = "dropdownProjects">
-                                        <div className = "dropdownTitle">
-                                            projects +
-                                        </div>
-
-                                        <div className = "dropdownContent">
-                                            <Link to = "/Skinmate" className = "dropdownItem">SkinMate iOS Application</Link>
-                                            <Link to = "/CountdownTimer" className = "dropdownItem">Countdown Timer</Link>
-                                            <Link to = "/InnoPromoo" className = "dropdownItem">InnoPromoo</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Wordle</Link>
-                                            <Link to = "/MemoryGame" className = "dropdownItem">Memory Game</Link>
-                                            <Link to = "/EtchASketch" className = "dropdownItem">Etch-A-Sketch</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Shopping List</Link>
-                                            <Link to = "/CatAdoption" className = "dropdownItem">Cat Adoption</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Dice Roller</Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div className = "menuItem">
-                                    <div className = "dropdownProjects">
-                                        <div className = "dropdownTitle">
-                                            about me
-                                        </div>
-
-                                        <div className = "dropdownContent">
-                                            <a href = "https://www.linkedin.com/in/melodi-keskin-059007211/" className = "dropdownItem" target = "_blank">LinkedIn</a>
-                                            <a href = "https://github.com/makimakimek" className = "dropdownItem" target = "_blank">GitHub</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <a href = "https://www.google.com" className = "link">
-                                    <div className = "menuItem">
-                                        resume
-                                    </div>
-                                </a>
-                            </div> 
-                        </div>
+                        <NavigationContent />
                     </div>
 
                     <div className = "projectCollection">
@@ -176,6 +197,13 @@ function Skinmate() {
                             </div>  
                         </div>
                     </div>
+                </div>
+                <button className="mobileNavButton" onClick={toggleMobileNav}>
+                    Menu
+                </button>
+
+                <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>
+                    <NavigationContent />
                 </div>
             </div>
         </>
