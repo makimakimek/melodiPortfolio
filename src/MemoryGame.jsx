@@ -103,28 +103,14 @@ function MemoryGame() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className = "contribution">
-                                    <div className = "infoTitle">
-                                        Contribution
-                                    </div>
-
-                                    <div className = "infoFullText">
-                                        <div className = "infoSubText">
-                                            done by me
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             
                             <div className = "projectParagraph">
-                                This iOS application, developed as our capstone project by a team of four, allows users to seamlessly manage their 
-                                skincare routine. Upon creating an account, users can capture a picture of their face within the application. The app 
-                                then analyzes the facial image to identify the user's skin type and what kind of acne they have. Based on this analysis, 
-                                personalized morning and night skincare routines are suggested, complete with specific product recommendations tailored 
-                                to the user's unique needs. Furthermore, the application features a page showcasing the user's last two pictures for easy 
-                                visual comparison. This section highlights the progress by indicating which acne has diminished and which areas may still 
-                                require attention.
+                                This 6x6 grid game features 36 cards with numbers 1-18, each appearing twice, randomly distributed across the board. 
+                                Players test their memory by flipping cards to find matching pairs. Successful matches remove the cards from the grid, 
+                                while mismatched pairs are hidden again. Key features include card reveal animations, match recognition, and a timer-based 
+                                reveal/hide mechanism for non-matching pairs. The project also incorporates game state management, tracking matched pairs 
+                                and game completion. This project was done using HTML, CSS, JavaScript, and DOM.
                             </div>  
                         </div>
 
@@ -146,13 +132,6 @@ function MemoryGame() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className = "linkContainer">
-                    <Link to = "/Featured">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
         </>

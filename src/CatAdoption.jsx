@@ -100,24 +100,12 @@ function CatAdoption() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className = "contribution">
-                                    <div className = "infoTitle">
-                                        Contribution
-                                    </div>
-
-                                    <div className = "infoFullText">
-                                        <div className = "infoSubText">
-                                            done by me
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             
                             <div className = "projectParagraph">
                                 This website serves as a platform for cat adoption, showcasing a variety of cats available for adoption along with 
-                                their names and brief descriptions. Additionally, I have added an "About Us" page that provides visitors with a 
-                                paragraph detailing information about the company behind the website. I created this website's layout and design using 
+                                their names and brief descriptions. Additionally, I have added an &quot;About Us&quot; page that provides visitors with a 
+                                paragraph detailing information about the company behind the website. I created this website&apos;s layout and design using 
                                 flexbox, utilizing HTML and CSS. The development was done through React and Vite.
                             </div>  
                         </div>
@@ -140,13 +128,6 @@ function CatAdoption() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className = "linkContainer">
-                    <Link to = "/Featured">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
         </>

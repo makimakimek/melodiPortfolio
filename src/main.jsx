@@ -9,6 +9,8 @@ import InnoPromoo from './InnoPromoo.jsx';
 import MemoryGame from './MemoryGame.jsx';
 import EtchASketch from './EtchASketch.jsx';
 import CatAdoption from './CatAdoption.jsx';
+import Wordle from './Wordle.jsx';
+import ShoppingList from './ShoppingList.jsx';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
   {
     path: "CatAdoption",
     element: <CatAdoption />,
+  },
+  {
+    path: "Wordle",
+    element: <Wordle />,
+  },
+  {
+    path: "ShoppingList",
+    element: <ShoppingList />,
   },
 ]);
 

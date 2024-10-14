@@ -3,7 +3,6 @@ import './App.css';
 import { Link } from "react-router-dom";
 import photo1 from './assets/innopromoo1.png';
 import photo2 from './assets/innopromoo2.png';
-import photo3 from './assets/innopromoo3.png';
 import photo4 from './assets/innopromoo4.png';
 
 function InnoPromoo() {
@@ -113,8 +112,8 @@ function InnoPromoo() {
                                 and CSS, the website is fully functional and responsive, ensuring a seamless viewing 
                                 experience on both desktop and mobile devices, regardless of screen orientation. 
                                 Additionally, I implemented a language toggle for English and Turkish translations, 
-                                considering the company's Turkish origin. To make the website accessible to the public, 
-                                the client bought a domain where I deployed the code, integrating it into the domain's 
+                                considering the company&apos;s Turkish origin. To make the website accessible to the public, 
+                                the client bought a domain where I deployed the code, integrating it into the domain&apos;s 
                                 public HTML.
                             </div>  
                         </div>
@@ -137,13 +136,6 @@ function InnoPromoo() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className = "linkContainer">
-                    <Link to = "/Featured">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
         </>

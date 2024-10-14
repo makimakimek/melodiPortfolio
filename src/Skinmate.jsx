@@ -3,8 +3,6 @@ import './App.css';
 import { Link } from "react-router-dom";
 import photo1 from './assets/capstoneScreenshot1.png';
 import photo2 from './assets/capstoneScreenshot2.png';
-import photo3 from './assets/capstoneScreenshot3.png';
-import photo4 from './assets/capstoneScreenshot4.png';
 import photo5 from './assets/capstoneScreenshot5.png';
 
 function Skinmate() {
@@ -170,9 +168,9 @@ function Skinmate() {
                             <div className = "projectParagraph">
                                 This iOS application, developed as our capstone project by a team of four, allows users to seamlessly manage their 
                                 skincare routine. Upon creating an account, users can capture a picture of their face within the application. The app 
-                                then analyzes the facial image to identify the user's skin type and what kind of acne they have. Based on this analysis, 
+                                then analyzes the facial image to identify the user&apos;s skin type and what kind of acne they have. Based on this analysis, 
                                 personalized morning and night skincare routines are suggested, complete with specific product recommendations tailored 
-                                to the user's unique needs. Furthermore, the application features a page showcasing the user's last two pictures for easy 
+                                to the user&apos;s unique needs. Furthermore, the application features a page showcasing the user&apos;s last two pictures for easy 
                                 visual comparison. This section highlights the progress by indicating which acne has diminished and which areas may still 
                                 require attention.
                             </div>  
@@ -196,13 +194,6 @@ function Skinmate() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className = "linkContainer">
-                    <Link to = "/Featured">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
         </>

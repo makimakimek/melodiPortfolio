@@ -103,26 +103,14 @@ function EtchASketch() {
                                         </div>
                                     </div>
                                 </div>
-
-                                <div className = "contribution">
-                                    <div className = "infoTitle">
-                                        Contribution
-                                    </div>
-
-                                    <div className = "infoFullText">
-                                        <div className = "infoSubText">
-                                            done by me
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                             
                             <div className = "projectParagraph">
                                 This website offers an interactive sketching experience where users can create drawings using their mouse as they navigate 
                                 over a grid of squares. Users have the option to choose their preferred colors, and there is an option for a random color 
                                 each time they pass over a square. The grid size is customizable, allowing users to select any number between 0 and 100. 
-                                Users can also enable a "Shading Effect", creating shades as they move over pre-filled squares. The canvas can be easily 
-                                cleared with the "Clear" button. I created this website's layout and design using flexbox, utilizing HTML, CSS, and JS. 
+                                Users can also enable a `&quot;`Shading Effect`&quot;`, creating shades as they move over pre-filled squares. The canvas can be easily 
+                                cleared with the `&quot;`Clear`&quot;` button. I created this website`&apos;`s layout and design using flexbox, utilizing HTML, CSS, and JS. 
                                 I used DOM to implement most features.
                             </div>  
                         </div>
@@ -145,13 +133,6 @@ function EtchASketch() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className = "linkContainer">
-                    <Link to = "/Featured">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
         </>

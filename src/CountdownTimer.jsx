@@ -88,31 +88,30 @@ function CountdownTimer() {
 
                         <div className = "infoAndParagraph">
                             <div className = "info">
-                                <div className = "contribution">
+                                <div className = "links">
                                     <div className = "infoTitle">
-                                        Contribution
+                                        Links
                                     </div>
 
                                     <div className = "infoFullText">
                                         <div className = "infoSubText">
-                                            Coding in VSCode using HTML, CSS, JS 
+                                            <a href = "https://makimakimek.github.io/countdownTimer/" target = "_blank" className = "singularLink">Live Preview</a>
                                         </div>
-                                        
+
                                         <div className = "infoSubText">
-                                            using DOM through JS to code the functionality of the countdown timer
+                                            <a href = "https://github.com/makimakimek/countdownTimer" target = "_blank" className = "singularLink">GitHub</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             
                             <div className = "projectParagraph">
-                                This iOS application, developed as our capstone project by a team of four, allows users to seamlessly manage their 
-                                skincare routine. Upon creating an account, users can capture a picture of their face within the application. The app 
-                                then analyzes the facial image to identify the user's skin type and what kind of acne they have. Based on this analysis, 
-                                personalized morning and night skincare routines are suggested, complete with specific product recommendations tailored 
-                                to the user's unique needs. Furthermore, the application features a page showcasing the user's last two pictures for easy 
-                                visual comparison. This section highlights the progress by indicating which acne has diminished and which areas may still 
-                                require attention.
+                                This interactive countdown timer allows users to set a timer by inputting hours, minutes, and seconds. 
+                                Once initiated, the timer transforms the input fields into a dynamic display that updates every second, 
+                                providing a clear view of the remaining time. The application features pause and reset functionalities, 
+                                ensuring flexibility for users. Upon completion, users receive a notification or alert, depending on device 
+                                permissions. The design prioritizes user experience and accessibility, with clear labels and placeholder 
+                                text to accommodate screen reader users. This project was done using HTML, CSS, Javascript, and DOM.
                             </div>  
                         </div>
 
@@ -134,13 +133,6 @@ function CountdownTimer() {
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className = "linkContainer">
-                    <Link to = "/Featured">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <a href = "https://www.google.com" className = "nextLink">next</a>
                 </div>
             </div>
         </>

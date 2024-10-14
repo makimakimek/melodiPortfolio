@@ -8,7 +8,6 @@ import wordleProjectImage from './assets/mainPhotos/wordle2.png';
 import memoryGameProjectImage from './assets/mainPhotos/memoryGame2.png';
 import etchASketchProjectImage from './assets/mainPhotos/etchASketch2.png';
 import shoppingListProjectImage from './assets/mainPhotos/shoppingList3.png';
-import catAdoptionProjectImage from './assets/mainPhotos/catAdoption2.png';
 
 function App() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -37,13 +36,13 @@ function App() {
                     <Link to="/Skinmate" className="dropdownItem">
                       SkinMate iOS Application
                     </Link>
-                    <Link to="/CountdownTimer" className="dropdownItem">
-                      Countdown Timer
-                    </Link>
                     <Link to="/InnoPromoo" className="dropdownItem">
                       InnoPromoo
                     </Link>
-                    <Link to="/Skinmate" className="dropdownItem">
+                    <Link to="/CountdownTimer" className="dropdownItem">
+                      Countdown Timer
+                    </Link>
+                    <Link to="/Wordle" className="dropdownItem">
                       Wordle
                     </Link>
                     <Link to="/MemoryGame" className="dropdownItem">
@@ -52,11 +51,8 @@ function App() {
                     <Link to="/EtchASketch" className="dropdownItem">
                       Etch-A-Sketch
                     </Link>
-                    <Link to="/Skinmate" className="dropdownItem">
+                    <Link to="/ShoppingList" className="dropdownItem">
                       Shopping List
-                    </Link>
-                    <Link to="/CatAdoption" className="dropdownItem">
-                      Cat Adoption
                     </Link>
                   </div>
                 </div>
@@ -119,18 +115,6 @@ function App() {
                                         </div>
                                     </div>
                                 </Link>
-                                
-                                <Link to = "/CountdownTimer">
-                                    <div className = "projectContainer">
-                                        <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of Countdown Timer project"/>
-                                        </div>
-
-                                        <div className = "projectTitle">
-                                            Countdown Timer
-                                        </div>
-                                    </div>
-                                </Link>
 
                                 <Link to = "/InnoPromoo">
                                     <div className = "projectContainer">
@@ -143,10 +127,22 @@ function App() {
                                         </div>
                                     </div>
                                 </Link>
+                                
+                                <Link to = "/CountdownTimer">
+                                    <div className = "projectContainer">
+                                        <div className = "projectImage">
+                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of Countdown Timer project"/>
+                                        </div>
+
+                                        <div className = "projectTitle">
+                                            Countdown Timer
+                                        </div>
+                                    </div>
+                                </Link>
                             </div>
 
                             <div className = "projectsRow">
-                                <Link to = "/Skinmate">
+                                <Link to = "/Wordle">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
                                             <img src = {wordleProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
@@ -184,7 +180,7 @@ function App() {
                             </div>
 
                             <div className = "projectsRow">
-                                <Link to = "/Skinmate">
+                                <Link to = "/ShoppingList">
                                     <div className = "projectContainer">
                                         <div className = "projectImage">
                                             <img src = {shoppingListProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
@@ -192,18 +188,6 @@ function App() {
 
                                         <div className = "projectTitle">
                                             Shopping List
-                                        </div>
-                                    </div>
-                                </Link>
-
-                                <Link to = "/CatAdoption">
-                                    <div className = "projectContainer">
-                                        <div className = "projectImage">
-                                            <img src = {catAdoptionProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
-                                        </div>
-
-                                        <div className = "projectTitle">
-                                            Cat Adoption
                                         </div>
                                     </div>
                                 </Link>
