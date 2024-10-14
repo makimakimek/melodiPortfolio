@@ -175,24 +175,6 @@ function Skinmate() {
                                 require attention.
                             </div>  
                         </div>
-
-                        <div className = "moreImages">
-                            <div className = "projectText">
-
-                            </div>
-
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectText">
-                                
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

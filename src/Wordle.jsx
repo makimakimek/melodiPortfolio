@@ -3,6 +3,7 @@ import './App.css';
 import { Link } from "react-router-dom";
 import photo1 from './assets/wordle1.png';
 import photo2 from './assets/wordle2.png';
+import photo3 from './assets/wordle3.png';
 
 function Wordle() {
     return (
@@ -74,13 +75,15 @@ function Wordle() {
 
                     <div className = "projectCollection">
                         <div className = "mainTitle">
-                            SKINMATE IOS APPLICATION
+                            WORDLE
                         </div>
 
                         <div className = "mainPhoto">
                             <img src = {photo1} className = "singularPhoto" alt = "sign up screen of skinmate ios application"/>
 
                             <img src = {photo2} className = "singularPhoto" alt = "product suggestion page of skinmate ios application"/>
+
+                            <img src = {photo3} className = "singularPhoto" alt = "product suggestion page of skinmate ios application"/>
                         </div>
 
                         <div className = "infoAndParagraph">
@@ -112,24 +115,6 @@ function Wordle() {
                                 and user-friendly interface. This project highlights my proficiency in frontend development, API integration, and creating 
                                 engaging user experiences.
                             </div>  
-                        </div>
-
-                        <div className = "moreImages">
-                            <div className = "projectText">
-
-                            </div>
-
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectImage">
-
-                            </div>
-
-                            <div className = "projectText">
-                                
-                            </div>
                         </div>
                     </div>
                 </div>
