@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css'
 import { Link } from "react-router-dom";
 import skinMateProjectImage from './assets/mainPhotos/skinmate.png';
@@ -10,71 +11,94 @@ import shoppingListProjectImage from './assets/mainPhotos/shoppingList3.png';
 import catAdoptionProjectImage from './assets/mainPhotos/catAdoption2.png';
 
 function App() {
+    const [mobileNavOpen, setMobileNavOpen] = useState(false);
+
+    const toggleMobileNav = () => {
+        setMobileNavOpen(!mobileNavOpen);
+    };
+
+    const NavigationContent = () => (
+        <>
+          <div className="name">Melodi Ezgi Keskin</div>
+
+          <div className="navigationTab">
+            <div className="nodes">NODES</div>
+
+            <div className="menu">
+              <Link to="/">
+                <div className="menuItem">index</div>
+              </Link>
+
+              <div className="menuItem">
+                <div className="dropdownProjects">
+                  <div className="dropdownTitle">projects +</div>
+
+                  <div className="dropdownContent">
+                    <Link to="/Skinmate" className="dropdownItem">
+                      SkinMate iOS Application
+                    </Link>
+                    <Link to="/CountdownTimer" className="dropdownItem">
+                      Countdown Timer
+                    </Link>
+                    <Link to="/InnoPromoo" className="dropdownItem">
+                      InnoPromoo
+                    </Link>
+                    <Link to="/Skinmate" className="dropdownItem">
+                      Wordle
+                    </Link>
+                    <Link to="/MemoryGame" className="dropdownItem">
+                      Memory Game
+                    </Link>
+                    <Link to="/EtchASketch" className="dropdownItem">
+                      Etch-A-Sketch
+                    </Link>
+                    <Link to="/Skinmate" className="dropdownItem">
+                      Shopping List
+                    </Link>
+                    <Link to="/CatAdoption" className="dropdownItem">
+                      Cat Adoption
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="menuItem">
+                <div className="dropdownProjects">
+                  <div className="dropdownTitle">about me</div>
+
+                  <div className="dropdownContent">
+                    <a
+                      href="https://www.linkedin.com/in/melodi-keskin-059007211/"
+                      className="dropdownItem"
+                      target="_blank"
+                    >
+                      LinkedIn
+                    </a>
+                    <a
+                      href="https://github.com/makimakimek"
+                      className="dropdownItem"
+                      target="_blank"
+                    >
+                      GitHub
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <a href="https://www.google.com" className="link">
+                <div className="menuItem">resume</div>
+              </a>
+            </div>
+          </div>
+        </>
+    );
+
     return (
         <>
             <div className = "page">
                 <div className = "navAndProjects">
                     <div className = "navigationAndName">
-                        <div className = "name">
-                            Melodi Keskin
-                        </div>
-
-                        {/*<div className = "mood">
-                            mood:
-                        </div>*/}
-
-                        <div className = "navigationTab">
-                            <div className = "nodes">
-                                NODES
-                            </div>
-
-                            <div className = "menu">
-                                <Link to = "/">
-                                    <div className = "menuItem">
-                                        index
-                                    </div>
-                                </Link>
-                                
-                                <div className = "menuItem">
-                                    <div className = "dropdownProjects">
-                                        <div className = "dropdownTitle">
-                                            projects +
-                                        </div>
-
-                                        <div className = "dropdownContent">
-                                            <Link to = "/Skinmate" className = "dropdownItem">SkinMate iOS Application</Link>
-                                            <Link to = "/CountdownTimer" className = "dropdownItem">Countdown Timer</Link>
-                                            <Link to = "/InnoPromoo" className = "dropdownItem">InnoPromoo</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Wordle</Link>
-                                            <Link to = "/MemoryGame" className = "dropdownItem">Memory Game</Link>
-                                            <Link to = "/EtchASketch" className = "dropdownItem">Etch-A-Sketch</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Shopping List</Link>
-                                            <Link to = "/CatAdoption" className = "dropdownItem">Cat Adoption</Link>
-                                            <Link to = "/Skinmate" className = "dropdownItem">Dice Roller</Link>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className = "menuItem">
-                                    <div className = "dropdownProjects">
-                                        <div className = "dropdownTitle">
-                                            about me
-                                        </div>
-
-                                        <div className = "dropdownContent">
-                                            <a href = "https://www.linkedin.com/in/melodi-keskin-059007211/" className = "dropdownItem" target = "_blank">LinkedIn</a>
-                                            <a href = "https://github.com/makimakimek" className = "dropdownItem" target = "_blank">GitHub</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <a href = "https://www.google.com" className = "link">
-                                    <div className = "menuItem">
-                                        resume
-                                    </div>
-                                </a>
-                            </div> 
-                        </div>
+                        <NavigationContent />
                     </div>
 
                     <div className = "projectCollection">
@@ -183,30 +207,16 @@ function App() {
                                         </div>
                                     </div>
                                 </Link>
-
-                                <Link to = "/Skinmate">
-                                    <div className = "projectContainer">
-                                        <div className = "projectImage">
-                                            <img src = {countdownTimerProjectImage} className = "subImage" alt = "an image of FloraPod project"/>
-                                        </div>
-
-                                        <div className = "projectTitle">
-                                            Dice Roller
-                                        </div>
-                                    </div>
-                                </Link>
                             </div>
                         </div>
                     </div>
                 </div>
+                <button className="mobileNavButton" onClick={toggleMobileNav}>
+                    Menu
+                </button>
 
-                <div className = "linkContainer">
-                    <Link to = "/">
-                        <div className = "indexLink">index</div>
-                    </Link>
-                    <Link to = "/Skinmate">
-                        <div className = "nextLink">next</div>
-                    </Link>
+                <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>
+                    <NavigationContent />
                 </div>
             </div>
         </>
