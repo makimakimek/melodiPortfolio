@@ -8,6 +8,7 @@ import wordleProjectImage from './assets/mainPhotos/wordle2.png';
 import memoryGameProjectImage from './assets/mainPhotos/memoryGame2.png';
 import etchASketchProjectImage from './assets/mainPhotos/etchASketch2.png';
 import shoppingListProjectImage from './assets/mainPhotos/shoppingList3.png';
+import circleMenu from './assets/circleMenu.png';
 
 function App() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -196,7 +197,7 @@ function App() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                    <img src = {circleMenu} />
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>

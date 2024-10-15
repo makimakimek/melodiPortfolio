@@ -18,6 +18,10 @@
 
 .projectCollectionInside {
     margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: 30%;
 }
 
 .mainPhoto {
