@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/capstoneScreenshot1.png';
 import photo2 from './assets/capstoneScreenshot2.png';
 import photo5 from './assets/capstoneScreenshot5.png';
+import circleMenu from './assets/circleMenu.png';
 
 function Skinmate() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -199,7 +200,7 @@ function Skinmate() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                  <img src = {circleMenu} />
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>

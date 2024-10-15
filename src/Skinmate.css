@@ -71,7 +71,26 @@
 }
 
 @media screen and (max-width: 768px) {
-    .singularPhoto {
-        max-width: 30%;
+    .mainPhoto {
+        gap: 1rem;
     }
+
+    .projectCollectionInside {
+        align-items: center;
+        width: 100%;   
+        margin: 0rem 0.5rem 0rem 0.5rem;
+    }
+
+    .singularPhoto {
+        max-width: 28%;
+    }
+
+    .infoAndParagraph {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .infoFullText, .projectParagraph {
+        font-size: 0.8rem;
+    } 
   }
