@@ -2,6 +2,7 @@
   background-color: #ffffff;
   width: 100%;
   height: 100%;
+  color: black;
 }
 
 .page {
@@ -75,7 +76,6 @@
 }
 
 .mainTitle {
-  color: black;
   font-family: "Lab Mono", Icons;
   font-weight: 400;
   font-size: 1rem;
