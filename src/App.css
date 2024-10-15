@@ -175,7 +175,7 @@
 
 @media screen and (max-width: 768px) {
   .mainTitle {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .projectTitle {
@@ -224,7 +224,7 @@
   }
 
   .mobileNavButton img {
-    width: 8vw;
+    width: 1.6rem;
     height: auto;
   }
 
