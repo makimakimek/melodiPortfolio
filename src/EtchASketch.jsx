@@ -100,12 +100,12 @@ function EtchASketch() {
                             ETCH-A-SKETCH
                         </div>
 
-                        <div className = "mainPhoto">
-                            <img src = {photo1} className = "singularPhoto" alt = "initial screen of etch-a-sketch website"/>
+                        <div className = "mainPhoto-skinmate">
+                            <img src = {photo1} className = "singularPhoto-skinmate" alt = "initial screen of etch-a-sketch website"/>
 
-                            <img src = {photo2} className = "singularPhoto" alt = "mid-screen of sketching"/>
+                            <img src = {photo2} className = "singularPhoto-skinmate" alt = "mid-screen of sketching"/>
 
-                            <img src = {photo3} className = "singularPhoto" alt = "mid-screen of sketching"/>
+                            <img src = {photo3} className = "singularPhoto-skinmate" alt = "mid-screen of sketching"/>
                         </div>
 
                         <div className = "infoAndParagraph">

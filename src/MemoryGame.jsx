@@ -100,12 +100,12 @@ function MemoryGame() {
                             MEMORY GAME
                         </div>
 
-                        <div className = "mainPhoto">
-                            <img src = {photo1} className = "singularPhoto" alt = "initial screen of memory game"/>
+                        <div className = "mainPhoto-skinmate">
+                            <img src = {photo1} className = "singularPhoto-skinmate" alt = "initial screen of memory game"/>
 
-                            <img src = {photo2} className = "singularPhoto" alt = "mid-screen of memory game while being played"/>
+                            <img src = {photo2} className = "singularPhoto-skinmate" alt = "mid-screen of memory game while being played"/>
 
-                            <img src = {photo3} className = "singularPhoto" alt = "mid-screen of memory game while being played"/>
+                            <img src = {photo3} className = "singularPhoto-skinmate" alt = "mid-screen of memory game while being played"/>
                         </div>
 
                         <div className = "infoAndParagraph">

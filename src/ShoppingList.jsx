@@ -100,12 +100,12 @@ function ShoppingList() {
                             SHOPPING LIST
                         </div>
 
-                        <div className = "mainPhoto">
-                            <img src = {photo1} className = "singularPhoto" alt = "shopping list website with already added items"/>
+                        <div className = "mainPhoto-skinmate">
+                            <img src = {photo1} className = "singularPhoto-skinmate" alt = "shopping list website with already added items"/>
 
-                            <img src = {photo2} className = "singularPhoto" alt = "shopping list website with one item strikedthrough"/>
+                            <img src = {photo2} className = "singularPhoto-skinmate" alt = "shopping list website with one item strikedthrough"/>
 
-                            <img src = {photo3} className = "singularPhoto" alt = "showing shopping list website's search bar and how it fetches words/items from an API"/>
+                            <img src = {photo3} className = "singularPhoto-skinmate" alt = "showing shopping list website's search bar and how it fetches words/items from an API"/>
                         </div>
 
                         <div className = "infoAndParagraph">

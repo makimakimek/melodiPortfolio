@@ -100,12 +100,12 @@ function Wordle() {
                             WORDLE
                         </div>
 
-                        <div className = "mainPhoto">
-                            <img src = {photo1} className = "singularPhoto" alt = "starting screen of wordle"/>
+                        <div className = "mainPhoto-skinmate">
+                            <img src = {photo1} className = "singularPhoto-skinmate" alt = "starting screen of wordle"/>
 
-                            <img src = {photo2} className = "singularPhoto" alt = "winning screen showing all guesses"/>
+                            <img src = {photo2} className = "singularPhoto-skinmate" alt = "winning screen showing all guesses"/>
 
-                            <img src = {photo3} className = "singularPhoto" alt = "another winning screen showing all guesses"/>
+                            <img src = {photo3} className = "singularPhoto-skinmate" alt = "another winning screen showing all guesses"/>
                         </div>
 
                         <div className = "infoAndParagraph">
