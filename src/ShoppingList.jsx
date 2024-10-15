@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/shoppingList2.png';
 import photo2 from './assets/shoppingList3.png';
 import photo3 from './assets/shoppingList4.png';
+import circleMenu from './assets/circleMenu.png';
 
 function ShoppingList() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -138,7 +139,7 @@ function ShoppingList() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                  <img src = {circleMenu} />  
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>

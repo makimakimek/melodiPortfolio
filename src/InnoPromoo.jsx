@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/innopromoo1.png';
 import photo2 from './assets/innopromoo2.png';
 import photo4 from './assets/innopromoo4.png';
+import circleMenu from './assets/circleMenu.png';
 
 function InnoPromoo() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -141,7 +142,7 @@ function InnoPromoo() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                  <img src = {circleMenu} />
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/wordle1.png';
 import photo2 from './assets/wordle2.png';
 import photo3 from './assets/wordle3.png';
+import circleMenu from './assets/circleMenu.png';
 
 function Wordle() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -140,7 +141,7 @@ function Wordle() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                  <img src = {circleMenu} />
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>

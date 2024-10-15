@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/memoryGame1.png';
 import photo2 from './assets/memoryGame3.png';
 import photo3 from './assets/memoryGame2.png';
+import circleMenu from './assets/circleMenu.png';
 
 function MemoryGame() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -137,7 +138,7 @@ function MemoryGame() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                  <img src = {circleMenu} />
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>

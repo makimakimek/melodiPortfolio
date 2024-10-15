@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import photo1 from './assets/CountdownTimer1.png';
 import photo2 from './assets/CountdownTimer2.png';
 import photo3 from './assets/CountdownTimer3.png';
+import circleMenu from './assets/circleMenu.png';
 
 function CountdownTimer() {
     const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -138,7 +139,7 @@ function CountdownTimer() {
                     </div>
                 </div>
                 <button className="mobileNavButton" onClick={toggleMobileNav}>
-                    Menu
+                  <img src = {circleMenu} />
                 </button>
 
                 <div className={`mobileNav ${mobileNavOpen ? 'active' : ''}`}>
