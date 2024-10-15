@@ -79,7 +79,7 @@ function EtchASketch() {
                 </div>
               </div>
 
-              <a href="https://www.google.com" className="link">
+              <a href="https://drive.google.com/file/d/1PLNrcUW4ZcFcPKzh4y9TMuLTDZFYP0GV/view?usp=sharing" className="link" target="_blank">
                 <div className="menuItem">resume</div>
               </a>
             </div>
