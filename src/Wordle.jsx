@@ -94,7 +94,7 @@ function Wordle() {
                         <NavigationContent />
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             WORDLE
                         </div>

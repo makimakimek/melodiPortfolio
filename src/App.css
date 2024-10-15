@@ -51,6 +51,7 @@
 .projectsRow {
   display: flex;
   gap: 3rem;
+  width: 100%;
 }
 
 .projectContainer {
@@ -58,6 +59,7 @@
   flex-direction: column;
   color: black;
   align-items: center;
+  width: 100%;
 }
 
 .linkContainer {
@@ -171,28 +173,51 @@
 }
 
 @media screen and (max-width: 768px) {
+  .mainTitle {
+    font-size: 0.8rem;
+  }
+
+  .projectTitle {
+    font-size: 0.8rem;
+  }
+
   .navigationAndName {
     display: none;
   }
 
   .projectCollection {
+    align-items: center;
+    width: 100%;   
+    margin: 0 0.5rem;
+  }
+
+  .projectContainer {
     width: 100%;
-    margin-left: 0.5rem;
+  }
+
+  .projectsRow {
+    gap: 1.2rem;
+  }
+
+  .projectsRow:last-child {
+    width: 33.3%;
   }
 
   .subImage {
-    max-width: 13rem;
+    width: 100%;
+    height: auto;
   }
 
   .mobileNavButton {
+    font-size: 0.7rem;
     display: block;
     position: fixed;
     top: 1rem;
-    right: 1rem;
+    right: 0.5rem;
     z-index: 1000;
     background-color: #fff;
     border: 1px solid #000;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 0.3rem;
     font-family: "Lab Mono";
     cursor: pointer;
   }

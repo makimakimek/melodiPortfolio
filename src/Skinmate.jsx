@@ -94,7 +94,7 @@ function Skinmate() {
                         <NavigationContent />
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             SKINMATE IOS APPLICATION
                         </div>

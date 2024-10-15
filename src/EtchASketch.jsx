@@ -94,7 +94,7 @@ function EtchASketch() {
                         <NavigationContent />
                     </div>
 
-                    <div className = "projectCollection">
+                    <div className = "projectCollectionInside">
                         <div className = "mainTitle">
                             ETCH-A-SKETCH
                         </div>
