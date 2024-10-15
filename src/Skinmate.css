@@ -83,12 +83,13 @@
     }
 
     .singularPhoto {
-        max-width: 28%;
+        max-width: 30%;
     }
 
     .infoAndParagraph {
         flex-direction: column;
         width: 100%;
+        gap: 2rem;
     }
 
     .infoFullText, .projectParagraph {
