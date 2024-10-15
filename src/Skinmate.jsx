@@ -100,12 +100,12 @@ function Skinmate() {
                             SKINMATE IOS APPLICATION
                         </div>
 
-                        <div className = "mainPhoto">
-                            <img src = {photo1} className = "singularPhoto" alt = "sign up screen of skinmate ios application"/>
+                        <div className = "mainPhoto-skinmate">
+                            <img src = {photo1} className = "singularPhoto-skinmate" alt = "sign up screen of skinmate ios application"/>
 
-                            <img src = {photo2} className = "singularPhoto" alt = "product suggestion page of skinmate ios application"/>
+                            <img src = {photo2} className = "singularPhoto-skinmate" alt = "product suggestion page of skinmate ios application"/>
 
-                            <img src = {photo5} className = "singularPhoto" alt = "facial image capture screen page of skinmate ios application"/>
+                            <img src = {photo5} className = "singularPhoto-skinmate" alt = "facial image capture screen page of skinmate ios application"/>
                         </div>
 
                         <div className = "infoAndParagraph">

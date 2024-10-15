@@ -25,14 +25,14 @@
     margin-left: 30%;
 }
 
-.mainPhoto {
+.mainPhoto, .mainPhoto-skinmate {
     display: flex;
     justify-content: flex-start;
     gap: 2rem;
     align-items: center;
 }
   
-.singularPhoto {
+.singularPhoto, .singularPhoto-skinmate {
     height: auto;
     width: 100%;
     max-width: 20rem;
@@ -72,8 +72,12 @@
 }
 
 @media screen and (max-width: 768px) {
-    .mainPhoto {
+    .mainPhoto-skinmate, .mainPhoto {
         gap: 1rem;
+    }
+
+    .mainPhoto {
+        flex-direction: column;
     }
 
     .projectCollectionInside {
@@ -82,8 +86,12 @@
         margin: 0rem 0.5rem 0rem 0.5rem;
     }
 
-    .singularPhoto {
+    .singularPhoto-skinmate {
         max-width: 30%;
+    }
+
+    .singularPhoto {
+        max-width: 100%;
     }
 
     .infoAndParagraph {
